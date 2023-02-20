@@ -1,0 +1,12 @@
+[package]
+name = "surfaceformat-repro"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pollster = "0.3.0"
+wgpu = "0.15.1"
+# wgpu = { git = "https://github.com/gfx-rs/wgpu.git", rev = "33f94c7c8457d8bf0363c175a7c5a95d525630fa" }
+winit = "0.28.1"
